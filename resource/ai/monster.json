@@ -1,0 +1,74 @@
+{
+    "t": "Sel",
+    "c": [
+        {
+            "t": "Seq",
+            "c": [
+                {
+                    "t": "ConditionDie"
+                },
+                {
+                    "t": "ActNothing",
+                    "log": "实体死亡什么都不干"
+                }
+            ]
+        },
+        {
+            "t": "Seq",
+            "c": [
+                {
+                    "t": "ConditionWithoutTarget"
+                },
+                {
+                    "t": "ActionSearchTarget",
+                    "log": "寻找目标"
+                }
+            ]
+        },
+        {
+            "t": "Sel",
+            "c": [
+                {
+                    "t": "Seq",
+                    "c": [
+                        {
+                            "t": "ConditionCanSpell",
+                            "p": [
+                                0
+                            ]
+                        },
+                        {
+                            "t": "Sel",
+                            "c": [
+                                {
+                                    "t": "Seq",
+                                    "c": [
+                                        {
+                                            "t": "ConditionInSkillRange",
+                                            "p": [
+                                                0
+                                            ]
+                                        },
+                                        {
+                                            "t": "ActionSpell",
+                                            "p": [
+                                                0
+                                            ],
+                                            "log": "释放技能0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "t": "ActionApproachSkillRange",
+                                    "p": [
+                                        0
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

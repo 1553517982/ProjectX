@@ -1,0 +1,4 @@
+{"file":"tileset.png","frames":{
+"wall_png":{"x":1,"y":73,"w":32,"h":32,"offX":0,"offY":0,"sourceW":32,"sourceH":32},
+"water_png":{"x":1,"y":37,"w":32,"h":32,"offX":0,"offY":0,"sourceW":32,"sourceH":32},
+"floor_png":{"x":1,"y":1,"w":32,"h":32,"offX":0,"offY":0,"sourceW":32,"sourceH":32}}}

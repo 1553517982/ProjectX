@@ -1,0 +1,458 @@
+{
+	"groups": [
+		{
+			"keys": "battle_json,hero_json,monster_json,roles_json",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "eui_skins/ButtonSkin.exml",
+			"type": "bin",
+			"name": "ButtonSkin_exml"
+		},
+		{
+			"url": "eui_skins/CheckBoxSkin.exml",
+			"type": "bin",
+			"name": "CheckBoxSkin_exml"
+		},
+		{
+			"url": "eui_skins/HScrollBarSkin.exml",
+			"type": "bin",
+			"name": "HScrollBarSkin_exml"
+		},
+		{
+			"url": "eui_skins/HSliderSkin.exml",
+			"type": "bin",
+			"name": "HSliderSkin_exml"
+		},
+		{
+			"url": "eui_skins/ItemRendererSkin.exml",
+			"type": "bin",
+			"name": "ItemRendererSkin_exml"
+		},
+		{
+			"url": "eui_skins/ProgressBarSkin.exml",
+			"type": "bin",
+			"name": "ProgressBarSkin_exml"
+		},
+		{
+			"url": "eui_skins/RadioButtonSkin.exml",
+			"type": "bin",
+			"name": "RadioButtonSkin_exml"
+		},
+		{
+			"url": "eui_skins/TextInputSkin.exml",
+			"type": "bin",
+			"name": "TextInputSkin_exml"
+		},
+		{
+			"url": "eui_skins/skins/MainViewSkin.exml",
+			"type": "bin",
+			"name": "MainViewSkin_exml"
+		},
+		{
+			"url": "assets/ui/knight/ico_juewei_huizhang_01.png",
+			"type": "image",
+			"name": "ico_juewei_huizhang_01_png"
+		},
+		{
+			"url": "assets/ui/knight/ico_juewei_huizhang_02.png",
+			"type": "image",
+			"name": "ico_juewei_huizhang_02_png"
+		},
+		{
+			"url": "assets/ui/knight/ico_juewei_huizhang_03.png",
+			"type": "image",
+			"name": "ico_juewei_huizhang_03_png"
+		},
+		{
+			"url": "assets/ui/knight/ico_juewei_huizhang_04.png",
+			"type": "image",
+			"name": "ico_juewei_huizhang_04_png"
+		},
+		{
+			"url": "assets/ui/knight/ico_juewei_huizhang_05.png",
+			"type": "image",
+			"name": "ico_juewei_huizhang_05_png"
+		},
+		{
+			"url": "assets/ui/knight/ico_juewei_huizhang_06.png",
+			"type": "image",
+			"name": "ico_juewei_huizhang_06_png"
+		},
+		{
+			"url": "assets/ui/knight/ico_juewei_huizhang_07.png",
+			"type": "image",
+			"name": "ico_juewei_huizhang_07_png"
+		},
+		{
+			"url": "assets/ui/knight/ico_juewei_huizhang_08.png",
+			"type": "image",
+			"name": "ico_juewei_huizhang_08_png"
+		},
+		{
+			"url": "assets/ui/knight/ico_juewei_huizhang_09.png",
+			"type": "image",
+			"name": "ico_juewei_huizhang_09_png"
+		},
+		{
+			"url": "assets/ui/knight/ico_juewei_huizhang_10.png",
+			"type": "image",
+			"name": "ico_juewei_huizhang_10_png"
+		},
+		{
+			"url": "assets/ui/knight/ico_juewei_huizhang_11.png",
+			"type": "image",
+			"name": "ico_juewei_huizhang_11_png"
+		},
+		{
+			"url": "assets/ui/knight/ico_juewei_huizhang_12.png",
+			"type": "image",
+			"name": "ico_juewei_huizhang_12_png"
+		},
+		{
+			"url": "assets/ui/knight/ico_juewei_huizhang_13.png",
+			"type": "image",
+			"name": "ico_juewei_huizhang_13_png"
+		},
+		{
+			"url": "assets/ui/main/ico_juese01.png",
+			"type": "image",
+			"name": "ico_juese01_png"
+		},
+		{
+			"url": "assets/ui/main/ico_juese02.png",
+			"type": "image",
+			"name": "ico_juese02_png"
+		},
+		{
+			"url": "assets/ui/main/ico_juese03.png",
+			"type": "image",
+			"name": "ico_juese03_png"
+		},
+		{
+			"url": "assets/ui/main/title_jiemian_01.png",
+			"type": "image",
+			"name": "title_jiemian_01_png"
+		},
+		{
+			"url": "assets/ui/main/title_jiemian_02.png",
+			"type": "image",
+			"name": "title_jiemian_02_png"
+		},
+		{
+			"url": "assets/ui/main/title_jiemian_03.png",
+			"type": "image",
+			"name": "title_jiemian_03_png"
+		},
+		{
+			"url": "assets/ui/main/title_jiemian_13.png",
+			"type": "image",
+			"name": "title_jiemian_13_png"
+		},
+		{
+			"url": "assets/ui/main/title_jiemian_17.png",
+			"type": "image",
+			"name": "title_jiemian_17_png"
+		},
+		{
+			"url": "assets/ui/main/title_jiemian_40.png",
+			"type": "image",
+			"name": "title_jiemian_40_png"
+		},
+		{
+			"url": "assets/ui/map/ico_ditu02.png",
+			"type": "image",
+			"name": "ico_ditu02_png"
+		},
+		{
+			"url": "assets/ui/map/ico_ditu03.png",
+			"type": "image",
+			"name": "ico_ditu03_png"
+		},
+		{
+			"url": "assets/ui/map/ico_ditu04.png",
+			"type": "image",
+			"name": "ico_ditu04_png"
+		},
+		{
+			"url": "assets/ui/map/ico_ditu05.png",
+			"type": "image",
+			"name": "ico_ditu05_png"
+		},
+		{
+			"url": "assets/ui/map/ico_ditu06.png",
+			"type": "image",
+			"name": "ico_ditu06_png"
+		},
+		{
+			"url": "assets/ui/map/ico_ditu07.png",
+			"type": "image",
+			"name": "ico_ditu07_png"
+		},
+		{
+			"url": "assets/ui/map/main_map.png",
+			"type": "image",
+			"name": "main_map_png"
+		},
+		{
+			"url": "assets/ui/map/map_S001.png",
+			"type": "image",
+			"name": "map_S001_png"
+		},
+		{
+			"url": "assets/ui/map/map_S002.png",
+			"type": "image",
+			"name": "map_S002_png"
+		},
+		{
+			"url": "assets/ui/map/map_S003.png",
+			"type": "image",
+			"name": "map_S003_png"
+		},
+		{
+			"url": "assets/ui/map/map_S004.png",
+			"type": "image",
+			"name": "map_S004_png"
+		},
+		{
+			"url": "assets/ui/map/map_S005.png",
+			"type": "image",
+			"name": "map_S005_png"
+		},
+		{
+			"url": "assets/ui/map/map_S006.png",
+			"type": "image",
+			"name": "map_S006_png"
+		},
+		{
+			"url": "assets/ui/map/map_S007.png",
+			"type": "image",
+			"name": "map_S007_png"
+		},
+		{
+			"url": "assets/ui/map/map_S008.png",
+			"type": "image",
+			"name": "map_S008_png"
+		},
+		{
+			"url": "assets/ui/map/map_S009.png",
+			"type": "image",
+			"name": "map_S009_png"
+		},
+		{
+			"url": "assets/ui/map/map_S010.png",
+			"type": "image",
+			"name": "map_S010_png"
+		},
+		{
+			"url": "assets/ui/map/map_S011.png",
+			"type": "image",
+			"name": "map_S011_png"
+		},
+		{
+			"url": "assets/ui/map/worldMap.jpg",
+			"type": "image",
+			"name": "worldMap_jpg"
+		},
+		{
+			"url": "assets/ui/boss/ico_shoushen_1.png",
+			"type": "image",
+			"name": "ico_shoushen_1_png"
+		},
+		{
+			"url": "assets/ui/boss/ico_shoushen_10.png",
+			"type": "image",
+			"name": "ico_shoushen_10_png"
+		},
+		{
+			"url": "assets/ui/boss/ico_shoushen_11.png",
+			"type": "image",
+			"name": "ico_shoushen_11_png"
+		},
+		{
+			"url": "assets/ui/boss/ico_shoushen_12.png",
+			"type": "image",
+			"name": "ico_shoushen_12_png"
+		},
+		{
+			"url": "assets/ui/boss/ico_shoushen_13.png",
+			"type": "image",
+			"name": "ico_shoushen_13_png"
+		},
+		{
+			"url": "assets/ui/boss/ico_shoushen_14.png",
+			"type": "image",
+			"name": "ico_shoushen_14_png"
+		},
+		{
+			"url": "assets/ui/boss/ico_shoushen_15.png",
+			"type": "image",
+			"name": "ico_shoushen_15_png"
+		},
+		{
+			"url": "assets/ui/boss/ico_shoushen_16.png",
+			"type": "image",
+			"name": "ico_shoushen_16_png"
+		},
+		{
+			"url": "assets/ui/boss/ico_shoushen_2.png",
+			"type": "image",
+			"name": "ico_shoushen_2_png"
+		},
+		{
+			"url": "assets/ui/boss/ico_shoushen_3.png",
+			"type": "image",
+			"name": "ico_shoushen_3_png"
+		},
+		{
+			"url": "assets/ui/boss/ico_shoushen_4.png",
+			"type": "image",
+			"name": "ico_shoushen_4_png"
+		},
+		{
+			"url": "assets/ui/boss/ico_shoushen_5.png",
+			"type": "image",
+			"name": "ico_shoushen_5_png"
+		},
+		{
+			"url": "assets/ui/boss/ico_shoushen_6.png",
+			"type": "image",
+			"name": "ico_shoushen_6_png"
+		},
+		{
+			"url": "assets/ui/boss/ico_shoushen_7.png",
+			"type": "image",
+			"name": "ico_shoushen_7_png"
+		},
+		{
+			"url": "assets/ui/boss/ico_shoushen_8.png",
+			"type": "image",
+			"name": "ico_shoushen_8_png"
+		},
+		{
+			"url": "assets/ui/boss/ico_shoushen_9.png",
+			"type": "image",
+			"name": "ico_shoushen_9_png"
+		},
+		{
+			"url": "assets/ui/boss/img_shoushen_1.png",
+			"type": "image",
+			"name": "img_shoushen_1_png"
+		},
+		{
+			"url": "assets/ui/boss/img_shoushen_10.png",
+			"type": "image",
+			"name": "img_shoushen_10_png"
+		},
+		{
+			"url": "assets/ui/boss/img_shoushen_11.png",
+			"type": "image",
+			"name": "img_shoushen_11_png"
+		},
+		{
+			"url": "assets/ui/boss/img_shoushen_12.png",
+			"type": "image",
+			"name": "img_shoushen_12_png"
+		},
+		{
+			"url": "assets/ui/boss/img_shoushen_13.png",
+			"type": "image",
+			"name": "img_shoushen_13_png"
+		},
+		{
+			"url": "assets/ui/boss/img_shoushen_14.png",
+			"type": "image",
+			"name": "img_shoushen_14_png"
+		},
+		{
+			"url": "assets/ui/boss/img_shoushen_15.png",
+			"type": "image",
+			"name": "img_shoushen_15_png"
+		},
+		{
+			"url": "assets/ui/boss/img_shoushen_16.png",
+			"type": "image",
+			"name": "img_shoushen_16_png"
+		},
+		{
+			"url": "assets/ui/boss/img_shoushen_2.png",
+			"type": "image",
+			"name": "img_shoushen_2_png"
+		},
+		{
+			"url": "assets/ui/boss/img_shoushen_3.png",
+			"type": "image",
+			"name": "img_shoushen_3_png"
+		},
+		{
+			"url": "assets/ui/boss/img_shoushen_4.png",
+			"type": "image",
+			"name": "img_shoushen_4_png"
+		},
+		{
+			"url": "assets/ui/boss/img_shoushen_5.png",
+			"type": "image",
+			"name": "img_shoushen_5_png"
+		},
+		{
+			"url": "assets/ui/boss/img_shoushen_6.png",
+			"type": "image",
+			"name": "img_shoushen_6_png"
+		},
+		{
+			"url": "assets/ui/boss/img_shoushen_7.png",
+			"type": "image",
+			"name": "img_shoushen_7_png"
+		},
+		{
+			"url": "assets/ui/boss/img_shoushen_8.png",
+			"type": "image",
+			"name": "img_shoushen_8_png"
+		},
+		{
+			"url": "assets/ui/boss/img_shoushen_9.png",
+			"type": "image",
+			"name": "img_shoushen_9_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "ai/monster.json",
+			"type": "json",
+			"name": "monster_json"
+		},
+		{
+			"url": "ai/battle.json",
+			"type": "json",
+			"name": "battle_json"
+		},
+		{
+			"url": "ai/hero.json",
+			"type": "json",
+			"name": "hero_json"
+		},
+		{
+			"url": "assets/map/mapeffect.json",
+			"type": "sheet",
+			"name": "mapeffect_json",
+			"subkeys": "acid_venom_png,arrow_0_png,arrow_1_png,arrow_2_png,arrow_3_png,arrow_4_png,arrow_5_png,arrow_6_png,arrow_7_png,cloud_acid_0_png,cloud_acid_1_png,cloud_acid_2_png,cloud_black_smoke_png,cloud_blue_smoke_png,cloud_calc_dust_0_png,cloud_calc_dust_1_png,cloud_calc_dust_2_png,cloud_calc_dust_3_png,cloud_chaos_1_png,cloud_chaos_2_png,cloud_chaos_3_png,cloud_chaos_4_png,cloud_chaos_5_png,cloud_cold_0_png,cloud_cold_1_png,cloud_cold_2_png,cloud_fire_0_png,cloud_fire_1_png,cloud_fire_2_png,cloud_forest_fire_png,cloud_gloom_new_png,cloud_gloom_old_png,cloud_grey_smoke_png,cloud_magic_trail_0_png,cloud_magic_trail_1_png,cloud_magic_trail_2_png,cloud_magic_trail_3_png,cloud_meph_0_png,cloud_meph_1_png,cloud_meph_2_png,cloud_mutagenic_large_1_png,cloud_mutagenic_large_2_png,cloud_mutagenic_large_3_png,cloud_mutagenic_large_4_png,cloud_mutagenic_medium_1_png,cloud_mutagenic_medium_2_png,cloud_mutagenic_small_1_png,cloud_mutagenic_small_2_png,cloud_neg_0_png,cloud_neg_1_png,cloud_neg_2_png,cloud_poison_0_png,cloud_poison_1_png,cloud_poison_2_png,cloud_rain_1_png,cloud_rain_2_png,cloud_spectral_0_png,cloud_spectral_1_png,cloud_spectral_2_png,cloud_storm_1_png,cloud_storm_2_png,cloud_tloc_energy_png,cloud_yellow_smoke_png,crossbow_bolt_0_png,crossbow_bolt_1_png,crossbow_bolt_2_png,crossbow_bolt_3_png,crossbow_bolt_4_png,crossbow_bolt_5_png,crossbow_bolt_6_png,crossbow_bolt_7_png,crystal_spear_0_png,crystal_spear_1_png,crystal_spear_2_png,crystal_spear_3_png,crystal_spear_4_png,crystal_spear_5_png,crystal_spear_6_png,crystal_spear_7_png,dart_0_png,dart_1_png,dart_2_png,dart_3_png,dart_4_png,dart_5_png,dart_6_png,dart_7_png,disjunct_0_png,disjunct_1_png,disjunct_2_png,disjunct_3_png,drain_0_new_png,drain_0_old_png,drain_1_new_png,drain_1_old_png,drain_2_new_png,drain_2_old_png,drain_red_0_png,drain_red_1_png,drain_red_2_png,eye_filled_portal_png,flame_0_png,flame_1_png,flame_2_png,frost_0_png,frost_1_png,gold_sparkles_1_png,gold_sparkles_2_png,gold_sparkles_3_png,goldaura_0_png,goldaura_1_png,goldaura_2_png,heataura_0_png,heataura_1_png,heataura_2_png,icicle_0_png,icicle_1_png,icicle_2_png,icicle_3_png,icicle_4_png,icicle_5_png,icicle_6_png,icicle_7_png,iron_shot_0_png,iron_shot_1_png,iron_shot_2_png,iron_shot_3_png,iron_shot_4_png,iron_shot_5_png,iron_shot_6_png,iron_shot_7_png,irradiate_0_png,irradiate_1_png,irradiate_2_png,irradiate_3_png,javelin_0_new_png,javelin_0_old_png,javelin_1_png,javelin_2_png,javelin_3_new_png,javelin_3_old_png,javelin_4_new_png,javelin_4_old_png,javelin_5_new_png,javelin_5_old_png,javelin_6_new_png,javelin_6_old_png,javelin_7_new_png,javelin_7_old_png,magic_bolt_1_png,magic_bolt_2_png,magic_bolt_3_png,magic_bolt_4_png,magic_bolt_5_png,magic_bolt_6_png,magic_bolt_7_png,magic_bolt_8_png,magic_dart_0_png,magic_dart_1_png,magic_dart_2_png,magic_dart_3_png,magic_dart_4_png,magic_dart_5_png,needle_0_png,needle_1_png,needle_2_png,needle_3_png,needle_4_png,needle_5_png,needle_6_png,needle_7_png,net_trap_png,orb_glow_0_png,orb_glow_1_png,poison_arrow_0_png,poison_arrow_1_png,poison_arrow_2_png,poison_arrow_3_png,poison_arrow_4_png,poison_arrow_5_png,poison_arrow_6_png,poison_arrow_7_png,quad_glow_png,rock_0_new_png,rock_0_old_png,sanctuary_png,sandblast_0_png,sandblast_1_png,sandblast_2_png,searing_ray_0_png,searing_ray_1_png,searing_ray_2_png,searing_ray_3_png,searing_ray_4_png,searing_ray_5_png,silenced_png,sling_bullet_0_new_png,sling_bullet_0_old_png,sting_0_png,sting_1_png,sting_2_png,stone_0_new_png,stone_0_old_png,stone_arrow_0_png,stone_arrow_1_png,stone_arrow_2_png,stone_arrow_3_png,stone_arrow_4_png,stone_arrow_5_png,stone_arrow_6_png,stone_arrow_7_png,throwing_net_0_png,throwing_net_1_png,throwing_net_2_png,throwing_net_3_png,throwing_net_4_png,throwing_net_5_png,throwing_net_6_png,throwing_net_7_png,tomahawk_0_png,tomahawk_1_png,tomahawk_2_png,tomahawk_3_png,tomahawk_4_png,tomahawk_5_png,tomahawk_6_png,tomahawk_7_png,tornado_1_png,tornado_2_png,umbra_0_png,umbra_1_png,umbra_2_png,umbra_3_png,xom_sparkles_blue_png,zap_0_png,zap_1_png,zap_2_png,zap_3_png"
+		},
+		{
+			"url": "assets/ui/roles/roles.json",
+			"type": "sheet",
+			"name": "roles_json",
+			"subkeys": "role1,role10,role100,role101,role102,role103,role104,role105,role106,role107,role108,role109,role11,role110,role111,role112,role113,role114,role115,role116,role117,role118,role119,role12,role120,role121,role122,role123,role124,role125,role126,role127,role128,role129,role13,role130,role131,role132,role133,role134,role135,role136,role137,role138,role139,role14,role140,role141,role142,role143,role144,role145,role146,role147,role148,role149,role15,role150,role151,role152,role153,role154,role155,role156,role157,role158,role159,role16,role160,role161,role162,role163,role164,role165,role166,role167,role168,role169,role17,role170,role171,role172,role173,role174,role175,role176,role18,role19,role2,role20,role21,role22,role23,role24,role25,role26,role27,role28,role29,role3,role30,role31,role32,role33,role34,role35,role36,role37,role38,role39,role4,role40,role41,role42,role43,role44,role45,role46,role47,role48,role49,role5,role50,role51,role52,role53,role54,role55,role56,role57,role58,role59,role6,role60,role61,role62,role63,role64,role65,role66,role67,role68,role69,role7,role70,role71,role72,role73,role74,role75,role76,role77,role78,role79,role8,role80,role81,role82,role83,role84,role85,role86,role87,role88,role89,role9,role90,role91,role92,role93,role94,role95,role96,role97,role98,role99"
+		},
+		{
+			"url": "assets/map/tileset.json",
+			"type": "sheet",
+			"name": "tileset_json",
+			"subkeys": "floor_png,wall_png,water_png"
+		}
+	]
+}
