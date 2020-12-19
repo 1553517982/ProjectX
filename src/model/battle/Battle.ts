@@ -49,4 +49,38 @@ class Battle extends Component {
 		MapEffectManager.Clear()
 		this.AI = null;
 	}
+
+	public GameOver(){
+		let vertexSrc =
+            "attribute vec2 aVertexPosition;\n" +
+            "attribute vec2 aTextureCoord;\n" +
+            "attribute vec2 aColor;\n" +
+
+            "uniform vec2 projectionVector;\n" +
+            "varying vec2 vPos;\n" +
+            "varying vec2 vTextureCoord;\n" +
+            "varying vec4 vColor;\n" +
+
+            "const vec2 center = vec2(-1.0, 1.0);\n" +
+
+            "void main(void) {\n" +
+            "   gl_Position = vec4( (aVertexPosition / projectionVector) + center , 0.0, 1.0);\n" +
+            "   vTextureCoord = aTextureCoord;\n" +
+            "   vPos = vec2(gl_Position.xy);\n" +
+            "   vColor = vec4(aColor.x, aColor.x, aColor.x, aColor.x);\n" +
+            "}";
+
+        let fragmentSrc4 = [
+            "precision lowp float;",
+            "varying vec2 vTextureCoord;",
+            "varying vec2 vPos;",
+            "varying vec4 vColor;",
+            "uniform sampler2D uSampler;",
+            "void main(void) {",
+			    "gl_FragColor = vec4(0,0,0,0);//texture2D(uSampler, vTextureCoord);",
+			"}"
+        ].join("\n");
+		var filter = new egret.CustomFilter(vertexSrc,fragmentSrc4);
+		GameLayer.Instance.sceneLayer.filters = [filter]
+	}
 }

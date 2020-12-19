@@ -144,6 +144,7 @@ class Entity extends GameObject {
 		Global.EntityModel.RemoveEntity(this.uuid);
 		if (this.type == 0) {
 			console.log("主角死亡 游戏结束");
+			Global.Battle.GameOver();
 		}
 	}
 

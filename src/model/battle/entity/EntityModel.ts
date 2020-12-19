@@ -3,7 +3,7 @@ class EntityModel extends Model {
 	/**怪物列表 */
 	private monsters: any = {};
 	/**主角 */
-	private mainPlayer: Entity;
+	public mainPlayer: Entity;
 	/**所有实体 */
 	private entities: any = {}
 	/**roleId */
